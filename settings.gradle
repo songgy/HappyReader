@@ -1,0 +1,3 @@
+include ':app', ':myapplication'
+include ':slidelibrary'
+include ':library'

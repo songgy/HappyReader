@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+  <TextView
+      android:layout_width="match_parent"
+      android:gravity="center"
+      android:text="选择图片"
+      android:padding="10dp"
+      android:textSize="20sp"
+      android:textColor="@color/colorSecret"
+      android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorRGbackground"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="相册选取"
+        android:id="@+id/dialog_tv_gallley"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorSecret"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorRGbackground"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="拍照获取"
+        android:id="@+id/dialog_tv_takephoto"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorSecret"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorRGbackground"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="取消"
+        android:id="@+id/dialog_tv_cancel"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorSecret"
+        android:layout_height="wrap_content" />
+</LinearLayout>

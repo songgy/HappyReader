@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tool33"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center"
+    android:background="@color/colorMo">
+
+    <TextView
+        android:id="@+id/tv_add_mark"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="添加书签"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name"
+        ></TextView>
+
+    <TextView
+        android:textColor="@color/colorWhite"
+        android:id="@+id/tv_my_mark"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:text="我的书签"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/app_name"></TextView>
+
+</LinearLayout>
